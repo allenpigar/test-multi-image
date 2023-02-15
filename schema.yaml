@@ -1,0 +1,273 @@
+
+  - description: null
+    label: "Clippings"
+    name: "clippings"
+    sort: 1
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/clippings.yaml"
+    fields:
+      - name: "site_name"
+        label: "Site Name"
+        description: null
+        datatype: "text"
+        sort: 1
+        required: true
+        relationship: null
+        settings:
+          options: {}
+      - name: "logo"
+        label: "Site Logo"
+        description: null
+        datatype: "images"
+        sort: 2
+        required: null
+        relationship: null
+        settings:
+          limit: 1
+          options: {}
+      - name: "footer_text"
+        label: "Footer Text"
+        description: null
+        datatype: "text"
+        sort: 3
+        required: null
+        relationship: null
+        settings:
+          options: {}
+  - description: null
+    label: "Dashboard Widgets"
+    name: "widgets"
+    sort: 1
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/widgets.yaml"
+    fields:
+      - name: "type"
+        label: "Type"
+        description: null
+        datatype: "text"
+        sort: 10000
+        required: null
+        relationship: null
+        settings:
+          options: {}
+      - name: "set_zuid"
+        label: "Set ZUID"
+        description: null
+        datatype: "text"
+        sort: 10000
+        required: null
+        relationship: null
+        settings:
+          options: {}
+      - name: "direction"
+        label: "Direction"
+        description: null
+        datatype: "text"
+        sort: 10000
+        required: null
+        relationship: null
+        settings:
+          options: {}
+      - name: "widget_size"
+        label: "Widget Size"
+        description: null
+        datatype: "text"
+        sort: 10000
+        required: null
+        relationship: null
+        settings:
+          options: {}
+      - name: "position"
+        label: "Position"
+        description: null
+        datatype: "number"
+        sort: 10000
+        required: null
+        relationship: null
+        settings:
+          options: {}
+      - name: "header"
+        label: "Header"
+        description: null
+        datatype: "text"
+        sort: 10000
+        required: null
+        relationship: null
+        settings:
+          list: 1
+          options: {}
+      - name: "data"
+        label: "Data"
+        description: null
+        datatype: "textarea"
+        sort: 10000
+        required: null
+        relationship: null
+        settings:
+          list: 1
+          options: {}
+  - description: null
+    label: "Homepage"
+    name: "homepage"
+    sort: 1
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/homepage.tpl"
+    content: "/content/homepage.yaml"
+    fields:
+      - name: "title"
+        label: "Lead in Title"
+        description: null
+        datatype: "text"
+        sort: 1
+        required: true
+        relationship: null
+        settings:
+          options: {}
+      - name: "content"
+        label: "Intro Text"
+        description: null
+        datatype: "wysiwyg_advanced"
+        sort: 2
+        required: null
+        relationship: null
+        settings:
+          options: {}
+      - name: "image"
+        label: "Main Image"
+        description: null
+        datatype: "images"
+        sort: 3
+        required: null
+        relationship: null
+        settings:
+          limit: 1
+          options: {}
+  - description: null
+    label: "Simple Page"
+    name: "simple_page"
+    sort: 1
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/simple_page.tpl"
+    content: "/content/simple_page.yaml"
+    fields:
+      - name: "title"
+        label: "Page Title"
+        description: null
+        datatype: "text"
+        sort: 1
+        required: true
+        relationship: null
+        settings:
+          options: {}
+      - name: "content"
+        label: "Page Content"
+        description: null
+        datatype: "wysiwyg_advanced"
+        sort: 2
+        required: null
+        relationship: null
+        settings:
+          options: {}
+      - name: "image"
+        label: "Page Image"
+        description: null
+        datatype: "images"
+        sort: 3
+        required: null
+        relationship: null
+        settings:
+          limit: 1
+          options: {}
+  - description: null
+    label: "Sidebar Contact Form"
+    name: "sidebar_contact_form"
+    sort: 1
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/sidebar_contact_form.yaml"
+    fields:
+      - name: "label"
+        label: "Label Text"
+        description: null
+        datatype: "text"
+        sort: 1
+        required: true
+        relationship: null
+        settings:
+          list: 1
+          options: {}
+      - name: "input_type"
+        label: "Input Type"
+        description: null
+        datatype: "dropdown"
+        sort: 2
+        required: null
+        relationship: null
+        settings:
+          list: 1
+          options: {}
+      - name: "is_required"
+        label: "Field is required"
+        description: null
+        datatype: "dropdown"
+        sort: 3
+        required: null
+        relationship: null
+        settings:
+          list: 1
+          options: {}
+      - name: "sort"
+        label: "Sort"
+        description: null
+        datatype: "sort"
+        sort: 4
+        required: null
+        relationship: null
+        settings:
+          default_sort: 1
+          list: 1
+          options: {}
+  - description: ""
+    label: "test"
+    name: "test"
+    sort: 100
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/test.tpl"
+    content: "/content/test.yaml"
+    fields:
+      - name: "header"
+        label: "header"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "images"
+        label: "images"
+        description: ""
+        datatype: "images"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          limit: "5"
+          list: true
