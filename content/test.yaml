@@ -1,20 +1,19 @@
-
-  - id: "d0ee-898b-5249"
-    web:
-      metaDescription: ""
-      metaTitle: "test"
-      metaLinkText: "test"
-      metaKeywords: null
-      pathPart: "test"
-      path: "/test/"
-      sitemapPriority: -1
-      canonicalTagMode: 1
-      canonicalQueryParamWhitelist: null
-      canonicalTagCustomValue: null
-      parent: "/"
-    meta:
-      sort: 101
-      listed: true
-    data:
-      header: "test"
-      images: "https://dnlnv3wf.media.zestyio.com/service_3.jpg,https://dnlnv3wf.media.zestyio.com/service_2.jpg,https://dnlnv3wf.media.zestyio.com/service_1.jpg"
+- id: "d0ee-898b-5249"
+  web:
+    metaDescription: ""
+    metaTitle: "test"
+    metaLinkText: "test"
+    metaKeywords: null
+    pathPart: "test"
+    path: "/test/"
+    sitemapPriority: -1
+    canonicalTagMode: 1
+    canonicalQueryParamWhitelist: null
+    canonicalTagCustomValue: null
+    parent: "/"
+  meta:
+    sort: 101
+    listed: true
+  data:
+    header: "test"
+    images: "3-f483e93-xh2gbk,3-f483e93-nrvxld,3-f483e93-j5klzm"
