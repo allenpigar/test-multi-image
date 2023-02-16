@@ -16,4 +16,13 @@
     listed: true
   data:
     header: "test"
-    images: '{"type":"image","zuid":null,"url":"https://dnlnv3wf.media.zestyio.com/service_3.jpg"},{"type":"image","zuid":null,"url":"https://dnlnv3wf.media.zestyio.com/service_2.jpg"},{"type":"image","zuid":null,"url":"https://dnlnv3wf.media.zestyio.com/service_1.jpg"}'
+    images:
+      - type: "image"
+        zuid: null
+        url: "https://dnlnv3wf.media.zestyio.com/service_3.jpg"
+      - type: "image"
+        zuid: null
+        url: "https://dnlnv3wf.media.zestyio.com/service_2.jpg"
+      - type: "image"
+        zuid: null
+        url: "https://dnlnv3wf.media.zestyio.com/service_1.jpg"
